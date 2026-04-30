@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "documentation": "https://github.com/slewf0ot/ha-consumers-energy-greenbutton",
   "issue_tracker": "https://github.com/slewf0ot/ha-consumers-energy-greenbutton/issues",
-  "dependencies": [],
+  "dependencies": ["recorder"],
   "codeowners": ["@slewf0ot"],
   "requirements": [],
   "iot_class": "cloud_polling",
