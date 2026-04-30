@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Consumers Energy Green Button",
+        "description": "Enter your UtilityAPI token. Get it from [utilityapi.com/dashboard]({token_url}) under Settings → API Tokens.",
+        "data": {
+          "token": "API Token"
+        }
+      },
+      "select_auth": {
+        "title": "Select Authorization",
+        "description": "Multiple Consumers Energy authorizations found. Pick one.",
+        "data": {
+          "authorization_uid": "Authorization"
+        }
+      }
+    },
+    "error": {
+      "invalid_token": "Invalid or expired API token.",
+      "cannot_connect": "Cannot connect to UtilityAPI.",
+      "no_authorizations": "No active authorizations found. Complete Green Button setup at greenbutton.consumersenergy.com first.",
+      "invalid_auth": "Invalid authorization.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "Already configured."
+    }
+  }
+}
