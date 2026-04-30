@@ -1,6 +1,4 @@
 {
   "name": "Consumers Energy Green Button",
-  "content_in_root": false,
-  "homeassistant": "2024.1.0",
-  "filename": "consumers_energy_greenbutton.zip"
+  "homeassistant": "2024.1.0"
 }
