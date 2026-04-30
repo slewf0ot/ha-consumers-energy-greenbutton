@@ -2,10 +2,10 @@
   "domain": "consumers_energy_greenbutton",
   "name": "Consumers Energy Green Button",
   "version": "1.0.0",
-  "documentation": "https://github.com/yourusername/consumers-energy-greenbutton",
-  "issue_tracker": "https://github.com/yourusername/consumers-energy-greenbutton/issues",
+  "documentation": "https://github.com/slewf0ot/consumers-energy-greenbutton",
+  "issue_tracker": "https://github.com/slewf0ot/consumers-energy-greenbutton/issues",
   "dependencies": [],
-  "codeowners": [],
+  "codeowners": [@slewf0ot],
   "requirements": [],
   "iot_class": "cloud_polling",
   "config_flow": true
