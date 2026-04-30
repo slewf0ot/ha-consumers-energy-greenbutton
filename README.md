@@ -19,7 +19,7 @@ A custom Home Assistant integration that pulls your Consumers Energy electricity
 ## Installation via HACS
 
 1. In HACS, go to **Integrations** → **Custom repositories**
-2. Add `https://github.com/yourusername/consumers-energy-greenbutton` as an **Integration**
+2. Add `https://github.com/slewf0ot/consumers-energy-greenbutton` as an **Integration**
 3. Search for **Consumers Energy Green Button** and install
 4. Restart Home Assistant
 
