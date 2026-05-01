@@ -18,7 +18,8 @@ _LOGGER = logging.getLogger(__name__)
 
 PLATFORMS = [Platform.SENSOR]
 
-type ConsumersEnergyConfigEntry = ConfigEntry[ConsumersEnergyCoordinator]
+from typing import TypeAlias
+ConsumersEnergyConfigEntry: TypeAlias = ConfigEntry[ConsumersEnergyCoordinator]
 
 
 async def async_setup_entry(
