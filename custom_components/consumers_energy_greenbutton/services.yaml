@@ -1,0 +1,24 @@
+refresh_data:
+  name: Refresh Data
+  description: >
+    Re-fetch the latest cached data from UtilityAPI and re-inject it into
+    Home Assistant statistics. This is free and instant — it pulls whatever
+    UtilityAPI already has without triggering a new collection from Consumers Energy.
+  fields: {}
+
+trigger_collection:
+  name: Trigger New Collection (Paid)
+  description: >
+    Request UtilityAPI to collect fresh data directly from Consumers Energy.
+    WARNING: This costs money on UtilityAPI paid plans and requires a $50
+    minimum prepaid account. Only use this when you need the absolute latest
+    data and understand the cost implications. Normal usage should rely on
+    the automatic 6-hour polling schedule.
+  fields:
+    confirm:
+      name: Confirm
+      description: Set to true to confirm you understand this action costs money.
+      required: true
+      default: false
+      selector:
+        boolean:
